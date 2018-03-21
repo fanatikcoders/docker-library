@@ -20,6 +20,14 @@ web:
     XDEBUG_CONFIG: remote_host=10.254.254.254 remote_port=9000 idekey=phpstorm remote_log=/tmp/xdebug.log
 ```
 
+- You can add a script to bring up the alias at startup:
+
+This may require sudo. We don't copy it to `~/Library/LaunchAgents` because needs to be run as sudo?
+
+```
+curl https://raw.githubusercontent.com/fanatikcoders/docker-library/master/assets/autorun_alias_for_lo.plist >> /Library/LaunchDaemons/com.rbngzlv.docker_10254254254_alias.plist
+```
+
 ## Configure PHP Storm:
 
 - PHP Interpreter:
