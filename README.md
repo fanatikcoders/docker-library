@@ -7,6 +7,8 @@
 ### PHP [Docker Hub](https://hub.docker.com/r/fanatikcoders/php/)
 
 - `php7.0-apache` [(php/7.0/apache/Dockerfile)](https://github.com/fanatikcoders/docker-library/blob/master/php/7.0/apache/Dockerfile)
+- `php7.1-apache` [(php/7.1/apache/Dockerfile)](https://github.com/fanatikcoders/docker-library/blob/master/php/7.1/apache/Dockerfile)
+- `php7.2-apache` [(php/7.2/apache/Dockerfile)](https://github.com/fanatikcoders/docker-library/blob/master/php/7.2/apache/Dockerfile)
 
 ## Configuring xdebug
 
