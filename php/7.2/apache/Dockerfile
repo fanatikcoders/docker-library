@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-configure gd --with-png-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
     && docker-php-ext-install -j$(nproc) gd
 
-RUN pecl install xdebug-2.5.5 \
+RUN pecl install xdebug-2.6.0 \
     && echo "zend_extension=$(find /usr/local/lib/php/extensions/ -name xdebug.so)" > $PHP_INI_DIR/conf.d/xdebug.ini \
     && echo "xdebug.default_enable = 1" >> $PHP_INI_DIR/conf.d/xdebug.ini \
     && echo "xdebug.remote_enable = 1" >> $PHP_INI_DIR/conf.d/xdebug.ini \
