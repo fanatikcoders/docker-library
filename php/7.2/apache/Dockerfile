@@ -26,6 +26,3 @@ RUN pecl install xdebug-2.6.0 \
     && echo "xdebug.remote_host = 10.254.254.254" >> $PHP_INI_DIR/conf.d/xdebug.ini \
     && echo "xdebug.remote_port = 9000" >> $PHP_INI_DIR/conf.d/xdebug.ini \
     && docker-php-ext-enable xdebug
-
-ENTRYPOINT ["docker-entrypoint.sh"]
-CMD ["apache2-foreground"]
