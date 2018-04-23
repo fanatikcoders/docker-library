@@ -1,7 +1,12 @@
-Supported tags and respective Dockerfile links:
+## Supported tags and respective Dockerfile links:
+
+### Wordpress [Docker Hub](https://hub.docker.com/r/fanatikcoders/wordpress/)
 
 - `4.9-php7.0-apache` [(wordpress/4.9/php7.0/apache/Dockerfile)](https://github.com/fanatikcoders/docker-library/blob/master/wordpress/4.9/php7.0/apache/Dockerfile)
 
+### PHP [Docker Hub](https://hub.docker.com/r/fanatikcoders/php/)
+
+- `php7.0-apache` [(php/7.0/apache/Dockerfile)](https://github.com/fanatikcoders/docker-library/blob/master/php/7.0/apache/Dockerfile)
 
 ## Configuring xdebug
 
